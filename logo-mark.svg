@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="26" height="26" role="img" aria-label="Pal-Match logo">
+  <!-- two pals, each tipping a grad cap onto the other -->
+  <g transform="translate(0 -5)">
+    <path d="M3 69v-5c0-11 6-17 14-17s14 6 14 17v5z" fill="#D4A97E"/>
+    <path d="M33 69v-5c0-11 6-17 14-17s14 6 14 17v5z" fill="#CFCBC3"/>
+    <circle cx="17" cy="34" r="10" fill="#D4A97E"/>
+    <circle cx="47" cy="34" r="10" fill="#CFCBC3"/>
+    <!-- cap on the left head -->
+    <g transform="translate(17 24) rotate(-10) scale(-1 1)">
+      <path d="M-7 0v5q7 4 14 0v-5z" fill="#2A2622"/>
+      <polygon points="-13,-1 0,-7 13,-1 0,5" fill="#2A2622"/>
+      <path d="M13 -1v9" stroke="#B5855A" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="13" cy="9.5" r="2.2" fill="#B5855A"/>
+    </g>
+    <!-- cap on the right head -->
+    <g transform="translate(47 24) rotate(10)">
+      <path d="M-7 0v5q7 4 14 0v-5z" fill="#2A2622"/>
+      <polygon points="-13,-1 0,-7 13,-1 0,5" fill="#2A2622"/>
+      <path d="M13 -1v9" stroke="#B5855A" stroke-width="2.2" stroke-linecap="round"/>
+      <circle cx="13" cy="9.5" r="2.2" fill="#B5855A"/>
+    </g>
+    <!-- hands lifting each cap -->
+    <circle cx="34.4" cy="20.8" r="3.4" fill="#D4A97E" stroke="#F8F6F1" stroke-width="1.4"/>
+    <circle cx="29.6" cy="20.8" r="3.4" fill="#CFCBC3" stroke="#F8F6F1" stroke-width="1.4"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard | palmatch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="dashboard">
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="nav-left">
+        <a class="logo" href="index.html"><img class="logo-mark" src="logo-mark.svg" width="26" height="26" alt="">palmatch</a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="profile.html">Profile</a>
+          <a href="dashboard.html" class="active">Dashboard</a>
+        </nav>
+      </div>
+      <div id="navUser"></div>
+    </div>
+  </header>
+
+  <main class="container page" id="dashRoot"></main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>palmatch™</span><a href="#">Send feedback</a>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

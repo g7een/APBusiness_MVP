@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>palmatch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="home">
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="nav-left">
+        <a class="logo" href="index.html"><img class="logo-mark" src="logo-mark.svg" width="26" height="26" alt="">palmatch</a>
+        <nav class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="profile.html">Profile</a>
+          <a href="dashboard.html">Dashboard</a>
+        </nav>
+      </div>
+      <div id="navUser"></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <span class="eyebrow">Now matching across Texas</span>
+      <h1>Your study group is <span>closer</span> than you think.</h1>
+      <p>Tell us what you're studying and when you're free. We'll connect you with 4–5 people nearby.</p>
+      <a class="btn" href="profile.html">Get matched <span>→</span></a>
+    </section>
+
+    <section class="steps">
+      <div class="step">
+        <span class="num">01</span>
+        <h3>Build your profile</h3>
+        <p>Courses, study style, schedule and where you like to meet.</p>
+      </div>
+      <div class="step">
+        <span class="num">02</span>
+        <h3>Get matched</h3>
+        <p>We pair you with a small group that fits your goals and location.</p>
+      </div>
+      <div class="step">
+        <span class="num">03</span>
+        <h3>Study together</h3>
+        <p>Meet in person or online and keep each other on track.</p>
+      </div>
+    </section>
+
+    <section class="cities">
+      <small>Starting in these Texas cities</small>
+      <div class="chips">
+        <span class="chip">Houston</span><span class="chip">Austin</span><span class="chip">Dallas</span>
+        <span class="chip">Katy</span><span class="chip">College Station</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>palmatch™ — by students for students</span>
+      <a href="#">Send feedback</a>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
